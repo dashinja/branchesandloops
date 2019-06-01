@@ -66,7 +66,7 @@ namespace BranchesAndLoops
       }
     }
 
-    static void Main(string[] args)
+    static void ConditionalSummation()
     {
       int accum = 0;
       for (int i = 1; i <= 20; i++)
@@ -77,6 +77,13 @@ namespace BranchesAndLoops
         }
       }
       Console.WriteLine($"The sum of all integers 1 through 20 divisible by 3 is {accum}!");
+    }
+
+    static void Main(string[] args)
+    {
+      ExploreIf();
+      Loopy();
+      ConditionalSummation();
     }
   }
 }
